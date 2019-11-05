@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Hey I'm Anatole", "I am a french student", "In 3rd year of computer engineering school"],
+      strings: ["Hey I'm Anatole", "I'm 19", "I'm a french student", "In 3rd year of computer engineering school"],
       typeSpeed: 80,
       loop: true,
     });
@@ -108,7 +108,7 @@ $(document).ready(function() {
   var magnifPopup = function() {
     $('.popup-img').magnificPopup({
       type: 'image',
-      removalDelay: 3000,
+      removalDelay: 300,
       mainClass: 'mfp-with-zoom',
       gallery: {
         enabled: true
