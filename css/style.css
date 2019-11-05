@@ -100,6 +100,8 @@ p {
   color: #fff;
 }
 
+
+
 .center{
     width: 100%;
     margin: 0 auto;
@@ -108,6 +110,11 @@ p {
     justify-content: space-around;
     display: flex;
     float: none;
+}
+
+.test{
+	color : black;
+	font-weight: 200;
 }
 
 .btn {
@@ -279,8 +286,9 @@ nav ul li a {
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
-  color: #fff;
-  font-weight: 500;
+  color: #000;
+  margin-bottom: 2px;
+  font-weight: 600;
 }
 
 .header-content .list-social li {

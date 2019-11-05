@@ -79,8 +79,8 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Hey I'm Anatole", "I am looking for an internship from January 6 to April 9, 2020.", "in object-oriented programming", "Or mobile development", "Preferably in an ESN"],
-      typeSpeed: 100,
+      strings: ["Hey I'm Anatole", "I am a french student", "In 3rd year of computer engineering school"],
+      typeSpeed: 80,
       loop: true,
     });
   });
@@ -108,7 +108,7 @@ $(document).ready(function() {
   var magnifPopup = function() {
     $('.popup-img').magnificPopup({
       type: 'image',
-      removalDelay: 300,
+      removalDelay: 3000,
       mainClass: 'mfp-with-zoom',
       gallery: {
         enabled: true
