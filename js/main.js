@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Hey I'm Anatole", "I'm 19", "I'm a french student", "In 3rd year of computer engineering school"],
+      strings: ["Bonjour, je suis Anatole", "J'ai 19 ans", "je suis étudiant en 3ème année", "au CESI ingénieur informatique"],
       typeSpeed: 80,
       loop: true,
     });
